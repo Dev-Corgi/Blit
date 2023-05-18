@@ -1,0 +1,13 @@
+  .blob2 {
+    position: absolute;
+width: 270px;
+height: 270px;
+left: calc(50% - 270px/2 - 8px);
+bottom: 320px;
+      box-shadow: 0 30px 60px #5d0029;
+      background-image: linear-gradient(180deg, #fa23fe, #fe0172 80%);
+      border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+      text-align: center;
+      margin: auto;
+      z-index: 7 !important;
+  }

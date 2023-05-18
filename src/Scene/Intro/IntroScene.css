@@ -1,0 +1,83 @@
+.intro-text1{
+    position: absolute;
+    width: 149px;
+    height: 60px;
+    left: calc(50% - 149px/2 + 0.5px);
+    bottom: 227px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 60px;
+    /* identical to box height, or 300% */
+    
+    text-align: center;
+    letter-spacing: 0.2em;
+    
+    color: #FFFFFF;
+  }
+  
+  .intro-text2{
+    position: absolute;
+    width: 307px;
+    height: 30px;
+    left: calc(50% - 307px/2 - 0.5px);
+    bottom: 191px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    /* identical to box height, or 115% */
+    
+    text-align: center;
+    
+    color: #ffffff;
+  }
+  
+  .intro-text3{
+    position: absolute;
+  width: 212px;
+  height: 30px;
+  left: calc(50% - 212px/2 + 0px);
+  bottom: 161px;
+  
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  /* identical to box height, or 115% */
+  
+  text-align: center;
+  
+  color: #ffffff;
+  }
+
+  .intro-buttonframe{
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 158px;
+    top: 715px;
+    background-image: url('Assets/Botton.png');
+  }
+
+  .intro-button{
+    position: absolute;
+    top:0%;
+    bottom:0%;
+    left:0%;
+    right:0%;
+    opacity: 0;
+  }
+
+  .introscene-background{
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: 0%;
+  
+  background: #000000;
+  }

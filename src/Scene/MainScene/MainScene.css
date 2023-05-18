@@ -1,0 +1,118 @@
+.main-pricetitle{
+    position: absolute;
+    width: 81px;
+    height: 24px;
+    left: 39px;
+    top: 137px;
+    
+    font-family: 'The Jamsil';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    
+    color: #FFFFFF;
+    opacity: 0;
+  }
+  
+  .main-pricevalue{
+    position: absolute;
+    width: 245px;
+    height: 58px;
+    left: 39px;
+    top: 168px;
+    
+    font-family: 'The Jamsil';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 58px;
+    letter-spacing: 0.01em;
+    
+    color: #FFFFFF;
+    opacity: 0;
+  }
+  
+  .main-priceunderline{
+    position: absolute;
+    top: 24.29%;
+    right: 89.72%;
+    bottom: 73.46%;
+    left: 10.03%;
+  
+  background: linear-gradient(180deg, #EA1BF7 0%, #EC1772 100%);
+  }
+  
+  .main-memberlisttitle{
+    position: absolute;
+    width: 106px;
+    height: 24px;
+    left: calc(50% - 106px/2 - 109.5px);
+    bottom: 216px;
+    
+    font-family: 'The Jamsil';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    opacity: 0;
+    color: #FFFFFF;
+  }
+  
+  .main-memberlistpics{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 11px;
+    
+    position: absolute;
+    width: 414.3px;
+    height: 59.88px;
+    left: 32px;
+    top: 659px;
+  }
+  
+  .main-memberlistpic{
+    /* Member1 */
+  
+  
+  width: 59.88px;
+  height: 59.88px;
+  
+  
+  /* Inside auto layout */
+  transform-origin: "center center";
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  }
+  
+  .main-memberlistzoombutton{
+    position: absolute;
+  width: 42px;
+  height: 42px;
+  left: 327px;
+  top: 597px;
+  opacity: 0;
+  }
+  
+  .main-button{
+    position: absolute;
+  width: 328px;
+  height: 53px;
+  left: calc(50% - 328px/2 + 7.5px);
+  bottom: 21px;
+  
+  background: linear-gradient(180deg, #EE1AFB 0%, #EC1772 100%);
+  border-radius: 30px;
+  opacity: 0;
+  }
+
+  .mainscene-background{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    
+    background: #000000;
+    }
